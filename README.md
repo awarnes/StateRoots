@@ -11,7 +11,11 @@ When users enter their zip code the program returns their local, state, and nati
 
 ### Specific Functionality:
 
-
+* Web scraping information
+* Manual updates of information
+* View information
+* Report inaccuracies
+*
 
 ### Data Model:
 
@@ -25,14 +29,31 @@ When users enter their zip code the program returns their local, state, and nati
  * Email
  * Phone
  * Social media handles
+* User IP for edits
 
 ### Technical Components:
 
 * Web scraping information
+ * WikiAPI
+ * BeautifulSoup/Requests
+   * usa.gov/elected-officials
 * Manual updates of information
-
+ * JS and JQ editing page.
+ * Basic Text Editor
+* View information
+* Report inaccuracies
 
 ### Estimated Schedule:
+
+###### Front End:
+1. Landing Page - ()
+* Local Summary Page - ()
+* Representative Details Page - ()
+
+###### Backend:
+1. Data Scraping - ()
+* Data Display - ()
+*
 
 ### Functionality beyond the MVP:
 
@@ -51,3 +72,5 @@ When users enter their zip code the program returns their local, state, and nati
 * Additional Representative Information:
  * Funding sources
  * Vote History
+* Direct contact
+ * Twilio
